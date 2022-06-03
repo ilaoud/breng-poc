@@ -37,6 +37,7 @@
 
 ::ng-deep .ruleSet-nested-condition .ant-select-selection-placeholder {
   color: #ffffff;
+  font-weight: 500;
 }
 
 .rule-condition {
@@ -52,8 +53,9 @@
   border: 1px solid #e61d8b !important; 
 }
 
-::ng-deep .rrule-condition .ant-select-selection-placeholder {
+::ng-deep .rule-condition .ant-select-selection-placeholder {
   color: #ffffff !important;
+  font-weight: 500;
 }
 
 
