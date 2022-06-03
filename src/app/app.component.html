@@ -1,0 +1,226 @@
+<div class="RulesContainer">
+  <div class="d-flex align-items-center" style="padding: 10px;">
+    <div
+      style="
+    background-color:  #e61d8b !important;
+    margin-left: 10px; 
+    font-size: 1.0rem;
+    font-weight: 500;
+    
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+
+    text-align: center;
+    min-height: 50px;
+    min-width: 110px;"
+    >
+      RelationShips
+    </div>
+    <div
+      class="pl-3"
+      style="
+    font-size: 1.0rem;
+    font-weight: 500;
+    padding-right: 0.75rem;
+    background-color: #E0E0E0 !important;
+    min-height: 50px;
+    min-width: 410px;
+    text-align: center;
+
+    "
+    >
+      xxxxxxxxxxxxxxxx
+    </div>
+    <span
+      class="action-links"
+      style="    background-color: #E0E0E0 !important;
+    min-height: 50px;
+    min-width: 20px;"
+    >
+      <a role="button" tabindex="0" data-abc="true">
+        <i nz-icon nzType="plus"></i
+      ></a>
+    </span>
+  </div>
+  <div class="conditionsContainer">
+    <div class="pl-3" style="font-size: 1.0rem;font-weight: 500;">
+      conditions
+    </div>
+    <div class="rulesGroupContainer">
+      <div
+        class="ruleContainer"
+        style="padding-left: 10px;;padding-top: 15px; align-items: flex-start;"
+      >
+        <div
+          class="ruleSet-Group-Container"
+          style="border-left: 4px solid #E0E0E0;"
+        >
+          <div class="ruleSet" style="padding-left: 10px;">
+            <div class="fields">
+              <nz-select [ngModel]="'Entities'" style="width: 35%;">
+                <nz-option [nzLabel]="'Home'" [nzValue]="'Home'"></nz-option>
+                <nz-option
+                  [nzLabel]="'Company'"
+                  [nzValue]="'Company'"
+                ></nz-option>
+              </nz-select>
+              <nz-select [ngModel]="'Fields'" style="width: 35%;">
+                <nz-option [nzLabel]="'size'" [nzValue]="'Home'"></nz-option>
+                <nz-option
+                  [nzLabel]="'price'"
+                  [nzValue]="'Company'"
+                ></nz-option>
+              </nz-select>
+              <nz-select [ngModel]="'Home'" style="width: 20%;">
+                <nz-option [nzLabel]="'='" [nzValue]="'equals'"></nz-option>
+                <nz-option [nzLabel]="'!='" [nzValue]="'notequals'"></nz-option>
+              </nz-select>
+            </div>
+          </div>
+
+          <nz-select
+            class="ruleSet-nested-condition"
+            [nzShowArrow]="false"
+            [ngModel]="'Conditions'"
+            nzPlaceHolder="AND"
+          >
+            <nz-option [nzLabel]="'AND'" [nzValue]="'AND'"></nz-option>
+            <nz-option [nzLabel]="'OR'" [nzValue]="'OR'"></nz-option>
+          </nz-select>
+
+          <div class="ruleSet" style="padding-left: 10px;">
+            <nz-input-group nzCompact>
+              <nz-select [ngModel]="'Entities'" style="width: 35%;">
+                <nz-option [nzLabel]="'Home'" [nzValue]="'Home'"></nz-option>
+                <nz-option
+                  [nzLabel]="'Company'"
+                  [nzValue]="'Company'"
+                ></nz-option>
+              </nz-select>
+              <nz-select [ngModel]="'Fields'" style="width: 35%;">
+                <nz-option [nzLabel]="'size'" [nzValue]="'Home'"></nz-option>
+                <nz-option
+                  [nzLabel]="'price'"
+                  [nzValue]="'Company'"
+                ></nz-option>
+              </nz-select>
+              <nz-select [ngModel]="'Home'" style="width: 20%;">
+                <nz-option [nzLabel]="'='" [nzValue]="'equals'"></nz-option>
+                <nz-option [nzLabel]="'!='" [nzValue]="'notequals'"></nz-option>
+              </nz-select>
+            </nz-input-group>
+          </div>
+        </div>
+        <div class="add-RuleSet">
+          <button nz-button nzType="default" nzSize="small" nzShape="circle">
+            <i nz-icon nzType="plus"></i>
+          </button>
+        </div>
+      </div>
+
+      <nz-select
+        class="rule-condition"
+        [nzShowArrow]="false"
+        [ngModel]="'Conditions'"
+        nzPlaceHolder="AND"
+      >
+        <nz-option [nzLabel]="'AND'" [nzValue]="'AND'"></nz-option>
+        <nz-option [nzLabel]="'OR'" [nzValue]="'OR'"></nz-option>
+      </nz-select>
+
+      <div
+        class="ruleContainer"
+        style="padding-left: 10px;;padding-top: 15px; align-items: flex-start;"
+      >
+        <div class="ruleSet-Group-Container">
+          <div class="ruleSet" style="padding-left: 10px;">
+            <div class="fields">
+              <nz-select [ngModel]="'Entities'" style="width: 35%;">
+                <nz-option [nzLabel]="'Home'" [nzValue]="'Home'"></nz-option>
+                <nz-option
+                  [nzLabel]="'Company'"
+                  [nzValue]="'Company'"
+                ></nz-option>
+              </nz-select>
+              <nz-select [ngModel]="'Fields'" style="width: 35%;">
+                <nz-option [nzLabel]="'size'" [nzValue]="'Home'"></nz-option>
+                <nz-option
+                  [nzLabel]="'price'"
+                  [nzValue]="'Company'"
+                ></nz-option>
+              </nz-select>
+              <nz-select [ngModel]="'Home'" style="width: 20%;">
+                <nz-option [nzLabel]="'='" [nzValue]="'equals'"></nz-option>
+                <nz-option [nzLabel]="'!='" [nzValue]="'notequals'"></nz-option>
+              </nz-select>
+            </div>
+          </div>
+
+          <nz-select
+            class="ruleSet-nested-condition"
+            [nzShowArrow]="false"
+            [ngModel]="'Conditions'"
+            nzPlaceHolder="AND"
+          >
+            <nz-option [nzLabel]="'and'" [nzValue]="'AND'"></nz-option>
+            <nz-option [nzLabel]="'or'" [nzValue]="'OR'"></nz-option>
+          </nz-select>
+
+          <div class="ruleSet" style="padding-left: 10px;">
+            <nz-input-group nzCompact>
+              <nz-select [ngModel]="'Entities'" style="width: 35%;">
+                <nz-option [nzLabel]="'Home'" [nzValue]="'Home'"></nz-option>
+                <nz-option
+                  [nzLabel]="'Company'"
+                  [nzValue]="'Company'"
+                ></nz-option>
+              </nz-select>
+              <nz-select [ngModel]="'Fields'" style="width: 35%;">
+                <nz-option [nzLabel]="'size'" [nzValue]="'Home'"></nz-option>
+                <nz-option
+                  [nzLabel]="'price'"
+                  [nzValue]="'Company'"
+                ></nz-option>
+              </nz-select>
+              <nz-select [ngModel]="'Home'" style="width: 20%;">
+                <nz-option [nzLabel]="'='" [nzValue]="'equals'"></nz-option>
+                <nz-option [nzLabel]="'!='" [nzValue]="'notequals'"></nz-option>
+              </nz-select>
+            </nz-input-group>
+          </div>
+        </div>
+        <div
+          class="add-RuleSet"
+          style="padding-top: 10px; padding-left:10px; border-left: 4px dashed #E0E0E0;"
+        >
+          <button nz-button nzType="default" nzSize="small" nzShape="circle">
+            <i nz-icon nzType="plus"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="addRuleSet" style="margin-top: 10px; padding-left:15px;">
+        <button
+          nz-button
+          nzType="primary"
+          nzShape="circle"
+          nz-dropdown
+          [nzDropdownMenu]="menu"
+          nzPlacement="bottomCenter"
+        >
+          <i nz-icon nzType="plus"></i>
+        </button>
+        <nz-dropdown-menu #menu="nzDropdownMenu">
+          <ul nz-menu>
+            <li nz-menu-item>AND</li>
+            <li nz-menu-item>OR</li>
+          </ul>
+        </nz-dropdown-menu>
+      </div>
+    </div>
+  </div>
+
+  <div class="conditionsContainer">
+    <div class="pl-3" style="font-size: 1.0rem;font-weight: 500;">Actions</div>
+  </div>
+</div>

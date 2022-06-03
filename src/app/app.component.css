@@ -1,0 +1,69 @@
+
+
+[nz-button] {
+  margin-right: 8px;
+  margin-bottom: 12px;
+}
+
+.action-links {
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+
+.align-items-center {
+  align-items: center!important;
+}
+
+.d-flex {
+  display: flex!important;
+}
+
+.pl-3, .px-3 {
+  padding-left: 1rem!important;
+}
+
+.ruleSet-nested-condition{
+  margin-top:10px;
+  padding-left:10px; 
+  margin-bottom:10px;
+}
+
+::ng-deep .ruleSet-nested-condition .ant-select-selector {
+  border-radius: 50px !important;
+  background-color: #E0E0E0 !important;
+  border: 1px solid #E0E0E0 !important;
+}
+
+::ng-deep .ruleSet-nested-condition .ant-select-selection-placeholder {
+  color: #ffffff;
+}
+
+.rule-condition {
+
+  margin-top:5px;
+  padding-left:5px; 
+  margin-bottom:5px;
+}
+
+::ng-deep .rule-condition .ant-select-selector {
+  border-radius: 50px !important;
+  background-color: #e61d8b !important;
+  border: 1px solid #e61d8b !important; 
+}
+
+::ng-deep .rrule-condition .ant-select-selection-placeholder {
+  color: #ffffff !important;
+}
+
+
+.ruleSet-Group-Container {
+
+  border-left: 4px solid #E0E0E0;
+}
+
+
+.add-RuleSet {
+padding-top: 10px; padding-left:10px; border-left: 4px dashed #E0E0E0;
+
+}
