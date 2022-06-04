@@ -98,12 +98,12 @@ padding-top: 10px; padding-left:10px; border-left: 4px dashed #E0E0E0;
 
 }
 
-.card-content[_ngcontent-rri-c169]:before {
+.card-content:before {
   content: "Basic";
   background: #1852ff;
 }
 
-.operator-selection .card-content:before {
+.card-content:before {
   writing-mode: vertical-lr;
   text-orientation: mixed;
   font-size: 13px;
