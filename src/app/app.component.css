@@ -69,3 +69,44 @@
 padding-top: 10px; padding-left:10px; border-left: 4px dashed #E0E0E0;
 
 }
+
+
+
+.btn-success {
+  color: #fff;
+  background-color: #2dce89;
+  border-color: #2dce89;
+  box-shadow: 0 4px 6px #32325d1c, 0 1px 3px #00000014;
+}
+.btn-operator {
+  padding: 5px 3px!important;
+  box-shadow: none!important;
+}
+
+.ml-1, .mx-1 {
+  margin-left: 0.25rem!important;
+}
+
+.mr-1, .mx-1 {
+  margin-right: 0.25rem!important;
+}
+
+.fields {
+  flex-wrap: nowrap!important;
+  flex-direction: row!important;
+  display: flex!important;
+
+}
+
+/* Start remove later */
+.col-lg-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+.col-12 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+
+/* End remove later */
