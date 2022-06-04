@@ -98,6 +98,30 @@ padding-top: 10px; padding-left:10px; border-left: 4px dashed #E0E0E0;
 
 }
 
+.card-content[_ngcontent-rri-c169]:before {
+  content: "Basic";
+  background: #1852ff;
+}
+
+.operator-selection .card-content:before {
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+  font-size: 13px;
+  width: 14px;
+  background: #1852ff;
+  color: #fff;
+  margin-right: 1rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  line-height: 10px;
+  display: grid;
+  place-items: center;
+  border-radius: 0 3px 3px 0;
+  transform: rotate(180deg);
+}
+
 /* Start remove later */
 .col-lg-6 {
   flex: 0 0 50%;
